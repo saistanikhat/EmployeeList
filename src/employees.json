@@ -1,0 +1,37 @@
+const data = {
+  "employees": [
+    {
+      "id": "1",
+      "name": "Mr. X",
+      "city": "Delhi",
+      "designation": "developer"
+    },
+    {
+      "id": "2",
+      "name": "Mr. Y",
+      "city": "Madras",
+      "designation": "tester"
+    },
+    {
+      "id": "3",
+      "name": "Mr. M",
+      "city": "Delhi",
+      "designation": "Manager",
+      "employeesWorking": [
+        {
+          "id": "1",
+          "name": "Mr. X",
+          "city": "Delhi",
+          "designation": "developer"
+        },
+        {
+          "id": "2",
+          "name": "Mr. Y",
+          "city": "Delhi",
+          "designation": "developer"
+        }
+      ]
+    }
+  ]
+}
+export default data;
